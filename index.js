@@ -66,6 +66,6 @@ app.post("/user/login", async (req, res) => {
 })
 
 
-app.listen(process.env.PORT || 3000, () => {
+app.listen(process.env.PORT || 3001, () => {
     console.log("Server successfully running at 3001")
 })
